@@ -1,0 +1,158 @@
+body{
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+}
+.container{
+display: flex;
+width: 30%;
+align-items: center;
+flex-direction: column;
+padding:15px 0px;
+background-color: blueviolet;
+border-radius: 15px;
+ box-shadow: 0 2px 40px 0 rgb(0 0 0 / 100%);
+}
+
+.besilo{
+    display: flex;
+    position: relative;
+    border: 2px solid black;
+    width: 150px;
+    height: 200px;
+    padding: 20px;
+
+}
+
+.line1{
+background-color:black;
+width: 5px;
+height: 200px;
+/* display: none; */
+}
+
+.line2{
+    background-color: black;
+    width: 70px;
+    height: 5px;
+    /* display: none; */
+}
+
+.line3{
+    background-color: black;
+    width: 5px;
+    height: 40px;
+    position: relative;
+    
+    /* display: none; */
+}
+
+.head{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 2rem ;
+    margin-top: 2rem;
+    position: absolute;
+    left: -21px;
+    /* display: none; */
+}
+.manbody{
+    position: absolute;
+    height: 100px;
+    width: 5px;
+    background-color: black;
+    top: 1.5rem;
+    right: 1.4rem;
+    /* display: none; */
+}
+
+.lefthand{
+    position: absolute;
+    height: 50px;
+    width: 5px;
+    background-color: black;
+    transform:rotate(-45deg);
+    top:1.5rem;
+    right: -1.2rem;
+    /* display: none; */
+}
+
+.righthand{
+    position: absolute;
+    height: 50px;
+    width: 5px;
+    background-color: black;
+    transform:rotate(45deg);
+    top:1.5rem;
+    right: 1.2rem;
+    /* display: none; */
+}
+
+.leftleg{
+    position: absolute;
+    height: 50px;
+    width: 5px;
+    background-color: black;
+    transform:rotate(45deg);
+    top:5.7rem;
+    right: 1.2rem;
+    /* display: none; */
+}
+
+.rightleg{
+    position: absolute;
+    height: 50px;
+    width: 5px;
+    background-color: black;
+    transform:rotate(-45deg);
+    top:5.7rem;
+    right: -1.2rem;
+    /* display: none; */
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buton{
+margin-top: 5rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 1rem;
+
+}
+
+strong{
+    letter-spacing: 0.5rem ;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.letters{
+    font-size: 0;
+    
+}
+
+.letter{
+    height: 50px;
+    width: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid black;
+    
+}
+
+.health{
+    font-size: 20px;
+}
+
+button:hover{
+    color: rgb(233, 20, 52);
+    box-shadow: 0 5px 15px rgba(126, 42, 187, 0.4);
+}
